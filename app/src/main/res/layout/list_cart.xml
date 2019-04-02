@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#1C1E2D"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cart_for_order_2"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtPrName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_product_name"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_product_name"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPrQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrName"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_product_qty"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pqty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pname"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_product_qty"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPrPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrQty"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_total_price"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pqty"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_total_price"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPrAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrPrice"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_delivery_address"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/paddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pprice"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/lato_bold"
+            android:padding="2dp"
+            android:text="@string/txt_list_delivery_address"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPrStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPrAddress"
+            android:fontFamily="@font/lato_bold"
+            android:paddingStart="2dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:paddingBottom="5dp"
+            android:text="@string/txt_list_current_status"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paddress"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/lato_bold"
+            android:paddingStart="2dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="2dp"
+            android:paddingBottom="5dp"
+            android:text="@string/txt_list_current_status"
+            android:textColor="@color/greyCode"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
